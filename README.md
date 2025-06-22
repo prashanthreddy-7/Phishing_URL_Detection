@@ -5,21 +5,20 @@ Git (optional, but useful)
 
  Step 1: Set up project folder
 Place all these files in a single directory. Based on the uploaded files, your structure should be:
-phishing-url-detector/
-│
-├── app.py
-├── feature.py
-├── phishing.csv
-├── requirements.txt
-├── README.md
-├── Procfile
-├── Phishing URL Detection.ipynb
-├── pickle/
-│   └── model.pkl
-├── static/
-│   └── styles.css
-├── templates/
-│   └── index.html
+phishing-url-detector :
+app.py
+feature.py
+phishing.csv
+requirements.txt
+README.md
+Procfile
+Phishing URL Detection.ipynb
+pickle
+   └── model.pkl
+static/
+  └── styles.css
+templates/
+   └── index.html
 
 Step 2: Create virtual environment 
 python -m venv venv
