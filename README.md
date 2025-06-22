@@ -7,16 +7,25 @@ Git (optional, but useful)
 Place all these files in a single directory. Based on the uploaded files, your structure should be:
 phishing-url-detector :
 app.py
+
 feature.py
+
 phishing.csv
+
 requirements.txt
+
 README.md
+
 Procfile
+
 Phishing URL Detection.ipynb
+
 pickle
    └── model.pkl
+   
 static/
   └── styles.css
+  
 templates/
    └── index.html
 
