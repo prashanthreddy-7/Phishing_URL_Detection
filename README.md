@@ -1,3 +1,40 @@
+To Execute this project Ensure you have the following installed:
+Python (version 3.6+ recommended)
+pip (Python package manager)
+Git (optional, but useful)
+
+ Step 1: Set up project folder
+Place all these files in a single directory. Based on the uploaded files, your structure should be:
+phishing-url-detector/
+│
+├── app.py
+├── feature.py
+├── phishing.csv
+├── requirements.txt
+├── README.md
+├── Procfile
+├── Phishing URL Detection.ipynb
+├── pickle/
+│   └── model.pkl
+├── static/
+│   └── styles.css
+├── templates/
+│   └── index.html
+
+Step 2: Create virtual environment 
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate     # For Windows
+
+Step 3: Install dependencies
+pip install -r requirements.txt
+
+Step 4: Run the Flask application
+python app.py
+
+you can check the results now
+
+
 # Phishing URL Detection 
 ![image](https://user-images.githubusercontent.com/79131292/144742825-23367f0f-9e67-4c99-ba1f-b86a187675c9.png)
 ![image](https://user-images.githubusercontent.com/79131292/144742785-d183f50a-52d6-4296-a43a-90a1ee3502d8.png)
